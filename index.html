@@ -7,28 +7,88 @@
 		<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css">
 		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+		<style>
+			body{
+			font-family: Helvetica;
+			}
+			.body{
+				padding: 60px 15px;
+			}
+			.pacifico{
+				font-family: 'Pacifico', cursive;
+			}
+			.title{
+				font-size: 2.5em;
+				margin-top: 0;
+			}
+
+			.main-header{
+				background-color: #004570; 
+				padding-left: 15px; 
+				padding-right: 15px; 
+				padding-top: 10px; 
+				padding-bottom: 10px;
+				border-radius: 4px;
+			}
+			.nav-link{
+				color: white;
+				margin-right: -4px;
+				text-decoration: none;
+				width: 33%;
+				display: inline-block;
+			}
+			.text-center{
+				text-align: center;
+			}
+			.text-justify{
+				text-align: justify;
+			}
+			.red-text{
+				color: #516e7c;
+			}
+			.main-container{
+				min-height: 100vh;
+			}
+			.product img{
+				width: 150px;
+			}
+			.product h3 {
+				font-size: 1.7em;
+				margin-top: 5px;
+				margin-bottom: 5px;
+			}
+			.card{
+				border-radius: 4px;
+				background-color: white;
+				box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); 
+			}
+			.threeD{
+				text-shadow: 1px 3px 0px #ffffff, 1px 13px 5px rgba(171, 168, 168);
+			}
+			.d{
+				text-align: justify; 
+			}
+		</style>
 </head>
 <body>
-		<div class="row main-container middle-xs center-xs">
-			<div class="col-md-8 col-sm-10 col-xs-11 col-lg-7">
-				<div class="box">
-					<div class="card animated fadeInUp">
-						<header class="main-header">
-							<nav class="main-nav">
-								<a href="index.php" class="nav-link"> Inicio </a>
-								<a href="menu.php" class="nav-link"> Redacción </a>
-								<a href="programacion.php" class="nav-link"> Programación </a>
-							</nav>
+	<div class="row main-container middle-xs center-xs">
+		<div class="col-md-8 col-sm-10 col-xs-11 col-lg-7">
+			<div class="box">
+				<div class="card animated fadeInUp">
+					<header class="main-header">
+						<nav class="main-nav">
+							<a class="nav-link"></a>
+						</nav>
+					</header>
+					<article class="body animated fadeInDown">
+						<header class="text-center">
+							<h1 class="red-text pacifico title threeD">¿Qué tal?</h1>
 						</header>
-						<article class="body animated fadeInDown">
-							<header class="text-center">
-								<img src="./images/paleta.png" height="100px" alt="Logo de Paper">
-								<h1 class="red-text pacifico title threeD">Review Lab's &copy </h1>
-							</header>
-						</article>
-					</div>
+					</article>
+					<p class="d">Disculpa --------- <br> aun esta en Desarrollo .....-----</p>
 				</div>
 			</div>
 		</div>
-	</body>
+	</div>
+</body>
 </html>
